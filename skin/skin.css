@@ -6,6 +6,10 @@
 
 #small_palemoon_addon-status-bar-icon
 {
+	/*
 	width: 832px;
 	margin: 0 5px;
+	*/
+	list-style-image: 
+		url("chrome//small_palemoon_addon/skin/status-bar.png");
 }

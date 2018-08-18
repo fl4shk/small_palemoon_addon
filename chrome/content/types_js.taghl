@@ -1,4 +1,0 @@
-syn keyword CTagsProperty names length values
-syn keyword CTagsFunction main make_enum recursive_freeze
-syn keyword CTagsClass ret
-

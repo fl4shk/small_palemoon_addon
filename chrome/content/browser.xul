@@ -13,17 +13,15 @@
 	</menupopup>
 
 	<!-- Keyboard shortcut... -->
-	<!--
 	<keyset>
 		<key id="small_palemoon_addon-run-key"
 			modifiers="alt shift" key="L" oncommand="main()"/>
 	</keyset>
-	-->
 
 	<statusbar id="status-bar">
 		<statusbarpanel id="small_palemoon_addon-status-bar-icon"
 			class="statusbarpanel-iconic"
-			src="chrome://small_palemoon_addon/skin/status_bar.png"
+			src="chrome://small_palemoon_addon/skin/status-bar.png"
 			tooltiptext="&runsmall_palemoon_addon;"
 			onclick="main()"/>
 	</statusbar>

@@ -1,5 +1,4 @@
 content     small_palemoon_addon    chrome/content/
-content     small_palemoon_addon    chrome/content/     contentaccessible=yes
 overlay     chrome://browser/content/browser.xul    chrome://small_palemoon_addon/content/browser.xul
 
 locale      small_palemoon_addon    en-US           locale/en-US/
