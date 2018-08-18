@@ -1,5 +1,7 @@
 "use strict";
 
+Cu.import("resource://gre/modules/Console.jsm");
+
 function recursive_freeze(some_object)
 {
 	for (let key in some_object)
@@ -39,11 +41,13 @@ function main()
 	//console.log(Binop.values.Subtract);
 	//console.log(Binop.values.Multiply);
 	//console.log(Binop.values.Divide);
-
 	//console.log(Binop.length);
-	//console.log(Binop.values);
-	//console.log(Binop.names);
-	//console.log(Binop.length);
+	console.log(Binop.values);
+	console.log(Binop.names);
+	console.log(Binop.length);
 
 	//alert(Binop);
+	//alert(Binop.values);
+	//alert(Binop.names);
+	//alert(Binop.length);
 }
