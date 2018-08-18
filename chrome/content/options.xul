@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<prefwindow
+	title="Small Pale Moon Addon Preferences"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<prefpane label="Small Pale Moon Addon Preferences">
+		<groupbox>
+			<caption label="There really isn't anything to configure."/>
+		</groupbox>
+	</prefpane>
+</prefwindow>

@@ -1,0 +1,7 @@
+content     small_palemoon_addon    chrome/content/
+content     small_palemoon_addon    chrome/content/     contentaccessible=yes
+locale      small_palemoon_addon    en-US           locale/en-US/
+
+skin        small_palemoon_addon    classic/1.0     skin/
+style       chrome://global/content/customizeToolbar.xul  chrome://small_palemoon_addon/skin/skin.css
+overlay     chrome://browser/content/browser.xul    chrome://small_palemoon_addon/content/browser.xul
