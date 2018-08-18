@@ -2,3 +2,6 @@
 *.txt.ignore
 */tags
 */types_*.taghl
+*.xpi
+*.zip
+*.tar.gz

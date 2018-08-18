@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="chrome://small_palemoon_addon/skin/skin.css" type="text/css"?>
+<?xml-stylesheet href="chrome://small_palemoon_addon/skin/skin.css"
+	type="text/css"?>
 <!DOCTYPE small_palemoon_addon 
 	SYSTEM "chrome://small_palemoon_addon/locale/translations.dtd">
 <overlay id="sample" 

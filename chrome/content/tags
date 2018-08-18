@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/249c3c0/
+length	main.js	/^	let ret = {values : {}, names : [], length : args.length};$/;"	kind:p	class:make_enum.ret
+main	main.js	/^function main()$/;"	kind:f	signature:()
+make_enum	main.js	/^function make_enum()$/;"	kind:f	signature:()
+names	main.js	/^	let ret = {values : {}, names : [], length : args.length};$/;"	kind:p	class:make_enum.ret
+recursive_freeze	main.js	/^function recursive_freeze(some_object)$/;"	kind:f	signature:(some_object)
+ret	main.js	/^	let ret = {values : {}, names : [], length : args.length};$/;"	kind:c	class:make_enum
+values	main.js	/^	let ret = {values : {}, names : [], length : args.length};$/;"	kind:p	class:make_enum.ret

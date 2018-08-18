@@ -1,0 +1,11 @@
+#small_palemoon_addon-toolbar-button
+{
+	list-style-image: 
+		url("chrome//small_palemoon_addon/skin/toolbar-large.png");
+}
+
+#small_palemoon_addon-status-bar-icon
+{
+	width: 832px;
+	margin: 0 5px;
+}
