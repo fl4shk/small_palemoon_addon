@@ -5,10 +5,14 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/249c3c0/
+Egg	main.js	/^function Egg()$/;"	kind:c	signature:()
 length	main.js	/^	let ret = {values : {}, names : [], length : args.length};$/;"	kind:p	class:make_enum.ret
-main	main.js	/^function main()$/;"	kind:f	signature:()
 make_enum	main.js	/^function make_enum()$/;"	kind:f	signature:()
 names	main.js	/^	let ret = {values : {}, names : [], length : args.length};$/;"	kind:p	class:make_enum.ret
 recursive_freeze	main.js	/^function recursive_freeze(some_object)$/;"	kind:f	signature:(some_object)
 ret	main.js	/^	let ret = {values : {}, names : [], length : args.length};$/;"	kind:c	class:make_enum
+run_keyboard_shortcut	main.js	/^function run_keyboard_shortcut()$/;"	kind:f	signature:()
+run_menu_button	main.js	/^function run_menu_button()$/;"	kind:f	signature:()
+run_status_bar	main.js	/^function run_status_bar()$/;"	kind:f	signature:()
+run_toolbar_button	main.js	/^function run_toolbar_button()$/;"	kind:f	signature:()
 values	main.js	/^	let ret = {values : {}, names : [], length : args.length};$/;"	kind:p	class:make_enum.ret

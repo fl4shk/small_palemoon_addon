@@ -1,4 +1,4 @@
 syn keyword CTagsProperty names values length
-syn keyword CTagsFunction main recursive_freeze make_enum
-syn keyword CTagsClass ret
+syn keyword CTagsFunction run_status_bar recursive_freeze make_enum run_keyboard_shortcut run_menu_button run_toolbar_button
+syn keyword CTagsClass Egg ret
 

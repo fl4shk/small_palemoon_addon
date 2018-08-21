@@ -9,21 +9,31 @@
 
 	<menupopup id="menu_ToolsPopup">
 		<menuitem label="&run_small_palemoon_addon.label;"
-			key="small_palemoon_addon-run-key" oncommand="main()"/>
+			key="small_palemoon_addon-run-key"
+			oncommand="run_menu_button()"/>
 	</menupopup>
 
 	<!-- Keyboard shortcut... -->
 	<keyset>
 		<key id="small_palemoon_addon-run-key"
-			modifiers="alt shift" key="L" oncommand="main()"/>
+			modifiers="alt shift" key="L"
+			oncommand="run_keyboard_shortcut()"/>
 	</keyset>
 
+	<!--
 	<statusbar id="status-bar">
 		<statusbarpanel id="small_palemoon_addon-status-bar-icon"
 			class="statusbarpanel-iconic"
 			src="chrome://small_palemoon_addon/skin/status-bar.png"
 			tooltiptext="&run_small_palemoon_addon.label;"
-			onclick="main()"/>
+			onclick="run_status_bar()"/>
+	</statusbar>
+	-->
+	<statusbar id="status-bar">
+		<statusbarpanel id="small_palemoon_addon-status-bar-icon"
+			class="statusbarpanel-iconic"
+			tooltiptext="&run_small_palemoon_addon.label;"
+			onclick="run_status_bar()"/>
 	</statusbar>
 
 	<toolbarpalette id="BrowserToolbarPalette">
@@ -31,7 +41,7 @@
 			label="Small Pale Moon Addon"
 			class="toolbarbutton-1 chromeclass-toolbar-additional"
 			tooltiptext="&run_small_palemoon_addon.label;"
-			oncommand="main()"/>
+			oncommand="run_toolbar_button()"/>
 	</toolbarpalette>
 </overlay>
 

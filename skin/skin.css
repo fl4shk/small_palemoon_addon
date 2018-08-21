@@ -1,7 +1,15 @@
 #small_palemoon_addon-toolbar-button
 {
+	/*
 	list-style-image: 
-		url("chrome//small_palemoon_addon/skin/toolbar-large.png");
+		url("chrome://small_palemoon_addon/skin/toolbar-large.png");
+	*/
+	list-style-image: 
+		url("chrome://small_palemoon_addon/skin/toolbar-small.png");
+	/*
+	list-style-image: 
+		url("chrome://small_palemoon_addon/skin/status-bar.png");
+	*/
 }
 
 #small_palemoon_addon-status-bar-icon
@@ -10,6 +18,10 @@
 	width: 832px;
 	margin: 0 5px;
 	*/
+	/*
 	list-style-image: 
-		url("chrome//small_palemoon_addon/skin/status-bar.png");
+		url("chrome://small_palemoon_addon/skin/statusbar-large.png");
+	*/
+	list-style-image: 
+		url("chrome://small_palemoon_addon/skin/statusbar-small.png");
 }

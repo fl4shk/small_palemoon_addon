@@ -33,22 +33,43 @@ function make_enum()
 }
 
 
-function main()
+//function main()
+//{
+//	console.log("main():  Hello World!");
+//	const Binop = make_enum("Add", "Subtract", "Multiply", "Divide");
+//
+//	//console.log(Binop.values.Add);
+//	//console.log(Binop.values.Subtract);
+//	//console.log(Binop.values.Multiply);
+//	//console.log(Binop.values.Divide);
+//	//console.log(Binop.length);
+//	console.log(Binop.values);
+//	console.log(Binop.names);
+//	console.log(Binop.length);
+//
+//	//alert(Binop);
+//	//alert(Binop.values);
+//	//alert(Binop.names);
+//	//alert(Binop.length);
+//}
+
+function run_menu_button()
 {
-	console.log("main():  Hello World!");
-	const Binop = make_enum("Add", "Subtract", "Multiply", "Divide");
-
-	//console.log(Binop.values.Add);
-	//console.log(Binop.values.Subtract);
-	//console.log(Binop.values.Multiply);
-	//console.log(Binop.values.Divide);
-	//console.log(Binop.length);
-	console.log(Binop.values);
-	console.log(Binop.names);
-	console.log(Binop.length);
-
-	//alert(Binop);
-	//alert(Binop.values);
-	//alert(Binop.names);
-	//alert(Binop.length);
+	alert("run_menu_button():  Hello World!");
 }
+
+function run_status_bar()
+{
+	alert("run_status_bar():  Hello World!");
+}
+
+function run_toolbar_button()
+{
+	alert("run_toolbar_button():  Hello World!");
+}
+
+function run_keyboard_shortcut()
+{
+	alert("run_keyboard_shortcut():  Hello World!");
+}
+
