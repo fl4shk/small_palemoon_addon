@@ -1,5 +1,6 @@
 "use strict";
 
+// For console.log
 Cu.import("resource://gre/modules/Console.jsm");
 
 function recursive_freeze(some_object)
